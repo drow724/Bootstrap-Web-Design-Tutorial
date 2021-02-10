@@ -15,10 +15,59 @@
 				color: white;
 			}
 		</style>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">코딩 부스터</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">소개<span class="sr-only"></span></a></li>
+						<li><a href="#">강사진</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">강의<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">C언어</a></li>
+								<li><a href="#">Java</a></li>
+								<li><a href="#">안드로이드</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+						</div>
+						<button type="submit" class="btn btn-defalut">검색</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">로그인</a></li>
+								<li><a href="#">회원가입</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<div class="container">
 			<div class="jumbotron">
 				<h1 class="text-center">코딩 부스터를 소개합니다.</h1>
 				<p class="text-center">코딩 부스터는 IT 교육 사이트입니다. 다양한 IT관련 무료 및 유료 강의가 존재합니다.</p>
 				<p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">강의 들으러 가기</a></p>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
 	</body>
 </html>
