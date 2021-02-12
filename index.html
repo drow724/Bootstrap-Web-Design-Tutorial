@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/codingBooster.css">
 	</head>
+
 	<body>
 		<style type="text/css">
 			.jumbotron {
@@ -26,19 +27,19 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">코딩 부스터</a>
+					<a class="navbar-brand" href="index.html">코딩 부스터</a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">소개<span class="sr-only"></span></a></li>
-						<li><a href="#">강사진</a></li>
+						<li class="active"><a href="index.html">소개<span class="sr-only"></span></a></li>
+						<li><a href="instructor.html">강사진</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
 							aria-haspopup="true" aria-expanded="false">강의<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">C언어</a></li>
-								<li><a href="#">Java</a></li>
-								<li><a href="#">안드로이드</a></li>
+								<li><a href="lecture.html?lectureName=C">C언어</a></li>
+								<li><a href="lecture.html?lectureName=Java">Java</a></li>
+								<li><a href="lecture.html?lectureName=Android">안드로이드</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -53,8 +54,8 @@
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
 							aria-haspopup="true" aria-expanded="false">접속하기<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">로그인</a></li>
-								<li><a href="#">회원가입</a></li>
+								<li><a href="loginForm.html">로그인</a></li>
+								<li><a href="registerForm.html">회원가입</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -65,7 +66,7 @@
 			<div class="jumbotron">
 				<h1 class="text-center">코딩 부스터를 소개합니다.</h1>
 				<p class="text-center">코딩 부스터는 IT 교육 사이트입니다. 다양한 IT관련 무료 및 유료 강의가 존재합니다.</p>
-				<p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">강의 들으러 가기</a></p>
+				<p class="text-center"><a class="btn btn-primary btn-lg" href="lecture.html" role="button">강의 들으러 가기</a></p>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -76,12 +77,12 @@
 				<div class="col-md-4">
 					<h4>폭 넓은 강사진</h4>
 					<p>코딩 부스터는 정말로 뛰어난 개발자만을 강사진으로 뽑습니다. 각각의 강사진은 현직 개발자로서 프로그래밍을 처음 접하는 학생에게 친절하게 알려줍니다.</p>
-					<p><a class="btn btn-default" href="#">자세히 알아보기</a></p>
+					<p><a class="btn btn-default" href="instructor.html">자세히 알아보기</a></p>
 				</div>
 				<div class="col-md-4">
 					<h4>핵심적인 강의</h4>
 					<p>강의는 실제 개발에 있어서 반드시 필요한 핵심적인 내용을 중심으로 다룹니다. 강의를 든는 시간 내내 요약된 정보를 온전히 받아들일 수 있습니다.</p>
-					<p><a class="btn btn-default" href="#">자세히 알아보기</a></p>
+					<p><a class="btn btn-default" href="lecture.html">자세히 알아보기</a></p>
 				</div>
 				<div></div>
 			</div>
@@ -94,10 +95,10 @@
 				<div class="panel-body">
 					<div class="media">
 						<div class="media-left">
-							<a href="#"><img class="media-object" src="images/c.png" width=100px height=100px alt="C언어 강의 이미지"></a>
+							<a href="lecture.html?lectureName=C"><img class="media-object" src="images/c.png" width=100px height=100px alt="C언어 강의 이미지"></a>
 						</div>
 						<div class="media-body">
-							<h4 class="media-heading"><a href="#">C언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">New</span></h4>
+							<h4 class="media-heading"><a href="lecture.html?lectureName=C">C언어 기초 프로그래밍 강의</a>&nbsp;<span class="badge">New</span></h4>
 							C언어 강의는 기초 프로그래밍 강의입니다. 처음 프로그래밍을 접하는 입문자가 듣기에 적합한 강의입니다.
 							강의료는 무료이면 C언어 기초 프로그래밍 강좌는 총 20강으로 구성됩니다.
 						</div>
@@ -105,10 +106,10 @@
 					<hr>
 					<div class="media">
 						<div class="media-left">
-							<a href="#"><img class="media-object" src="images/java.png" width=100px height=100px alt="Java언어 강의 이미지"></a>
+							<a href="lecture.html?lectureName=Java"><img class="media-object" src="images/java.png" width=100px height=100px alt="Java언어 강의 이미지"></a>
 						</div>
 						<div class="media-body">
-							<h4 class="modal-heading"><a href="#">Java 기초 프로그래밍 강의</a>&nbsp;<span class="badge">New</span></h4>
+							<h4 class="modal-heading"><a href="lecture.html?lectureName=Java">Java 기초 프로그래밍 강의</a>&nbsp;<span class="badge">New</span></h4>
 							Java 강의는 객체 지향 프로그래밍 강의입니다. 처음 프로그래밍을 접하는 입문자가 듣기에 적합한 강의입니다.
 							강의료는 무료이며 Java 기초 프로그래밍 강좌는 총 30강으로 구성됩니다.
 						</div>
@@ -116,10 +117,10 @@
 					<hr>
 					<div class="media">
 						<div class="media-left">
-							<a href="#"><img class="media-object" src="images/android.png" width=100px height=100px alt="Android 강의 이미지"></a>
+							<a href="lecture.html?lectureName=Android"><img class="media-object" src="images/android.png" width=100px height=100px alt="Android 강의 이미지"></a>
 						</div>
 						<div class="media-body">
-							<h4 class="modal-heading"><a href="#">안드로이드 스튜디오 활용 강의</a>&nbsp;<span class="badge">New</span></h4>
+							<h4 class="modal-heading"><a href="lecture.html?lectureName=Android">안드로이드 스튜디오 활용 강의</a>&nbsp;<span class="badge">New</span></h4>
 							안드로이드 강의는 Java를 활용하여 안드로이드 애플리케이션을 개발하는 강의입니다.
 							속도감 있는 강의로 앱 개발 입문자가 빠르게 앱을 만들어보면서 기본 개념을 탄탄히 다지도록 합니다.
 						</div>
@@ -131,13 +132,13 @@
 			<div class="container">
 				<br>
 				<div class="row">
-					<div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2017</h5><h5>송재근(JAEGEUN SONG</h5></div>
+					<div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2017</h5><h5>송재근(JAEGEUN SONG)</h5></div>
 					<div class="col-sm-4"><h4>대표자 소개</h4><p>저는 코딩 부스터의 대표 송재근입니다.</p></div>
 					<div class="col-sm-2"><h4 style="text-align: center;">네비게이션</h4>
 						<div class="list-group">
-							<a href="#" class="list-group-item">소개</a>
-							<a href="#" class="list-group-item">강사진</a>
-							<a href="#" class="list-group-item">강의</a>
+							<a href="index.html" class="list-group-item">소개</a>
+							<a href="instructor.html" class="list-group-item">강사진</a>
+							<a href="lecture.html" class="list-group-item">강의</a>
 						</div>
 				</div>
 					<div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
