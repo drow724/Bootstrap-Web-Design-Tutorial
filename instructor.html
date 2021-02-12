@@ -7,8 +7,32 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/codingBooster.css">
 	</head>
-
 	<body>
+		<style type="text/css">
+			blockquote {
+				background: #f9f9f9;
+				border-left: 10px solid #cccccc;
+				margin: 1.5em 10px;
+				padding: 0.5em 10px;
+				quotes: "\201C""\201D""\2018""\2019";
+			}
+			blockquote:before {
+				color: #cccccc;
+				content: open-quote;
+				font-size: 3em;
+				line-height: 0.1em;
+				margin-left: 0.8em;
+				vertical-align: -0.4em;
+			}
+			blockquote:after {
+				color: #cccccc;
+				content: close-quote;
+				font-size: 3em;
+				line-height: 0.1em;
+				margin-left: 0.25em;
+				vertical-align: -0.4em;
+			}
+		</style>
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -93,9 +117,11 @@
 									<td><a href="lecture.html?lectureName=C">C언어 기초 프로그래밍 강좌</a></td>
 									<td>2020-01-01</td>
 								</tr>
-
 							</tbody>
 						</table>
+						<div class="panel-footer">
+							<blockquote>&nbsp;&nbsp; Do And Forget!</blockquote>
+						</div>
 					</div>
 					<div class="panel panel-primary">
 						<div class="panel-heading">
@@ -135,6 +161,9 @@
 								</tr>
 							</tbody>
 						</table>
+						<div class="panel-footer">
+							<blockquote>&nbsp;&nbsp; 섹지!</blockquote>
+						</div>
 					</div>
 					<div class="panel panel-primary">
 						<div class="panel-heading">
@@ -172,9 +201,11 @@
 									<td><a href="lecture.html?lectureName=Android">안드로이드 스튜디오 활용 강좌</a></td>
 									<td>2020-01-01</td>
 								</tr>
-
 							</tbody>
 						</table>
+						<div class="panel-footer">
+							<blockquote>&nbsp;&nbsp; 오늘 회의 함?</blockquote>
+						</div>
 					</div>
 				</div>
 			</div>
